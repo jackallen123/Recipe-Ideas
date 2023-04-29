@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', arial;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(53, 82, 107);
+}
+
+.header {
+    padding: 24px;
+    color:rgb(221, 216, 208);
+}
+
+.links a {
+    color:rgb(221, 216, 208);
+    text-decoration: none;
+    padding: 24px;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    height: 350px;
+    width: 550px;
+    padding: 64px;
+}
+
+.hero .right {
+    padding: 64px;
+}
+
+.hero h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.hero p {
+    margin-top: 8px;
+    text-align: center;
+}
