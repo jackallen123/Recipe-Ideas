@@ -7,26 +7,24 @@ body {
     font-family: 'Roboto', arial;
 }
 
-.recipe1 h1 {
-    padding: 32px;
-    background-color: pink;
-}
+/* NAVBAR */
 
-.instructions {
-    background-color: green;
-}
-
-.ingredients {
-    background-color: green;
-}
-
-.instructions img {
-    height: 500px;
-    width: 600px;
-}
-
-.both {
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    background-color:pink;
 }
+
+.header {
+    padding: 24px;
+}
+
+.links a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 24px;
+}
+
+/* Recipes */
